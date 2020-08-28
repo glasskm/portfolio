@@ -15,7 +15,7 @@ collections: # A list of collections the CMS should be able to edit
       - {label: "Intro Blurb", name: "description", widget: "text"}
       - {label: "Image", name: "image", widget: "image", required: false}
       - {label: "Body", name: "body", widget: "markdown"}
-  - name: "pages"
+  - name: "Pages"
     label: "Pages"
     folder:"site/content"
     create: true # Allow users to create new documents in this collection
